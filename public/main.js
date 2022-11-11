@@ -2,19 +2,7 @@ import renderToDOM from '../components/renderToDom';
 import '../styles/main.scss'; // You have to import your styles for them to work. Comment in this line
 import { houses, voldysArmy, students } from '../components/data/dataForApp';
 import htmlStructure from '../components/htmlStructure';
-
-const header = () => {
-  const domString = `<div class="container">
-    <h1>Welcome to Hoggy Hogwarts Sorting Hat!</h1>
-    <p>
-      Hmm, difficult. VERY difficult. <br />Plenty of courage, I see.
-      <br />Not a bad mind, either. There's talent, oh yes. <br />And a
-      thirst to prove yourself. <br />But where to put you?
-    </p>
-  </div>`;
-
-  renderToDOM('#header-container', domString);
-};
+import header from '../components/header';
 
 const startSortingBtn = () => {
   const domString = '<button type="button" class="btn btn-info" id="start-sorting">Start the Sorting Ceremony!</button>';
