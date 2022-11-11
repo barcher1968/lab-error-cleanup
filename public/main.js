@@ -3,12 +3,7 @@ import '../styles/main.scss'; // You have to import your styles for them to work
 import { houses, voldysArmy, students } from '../components/data/dataForApp';
 import htmlStructure from '../components/htmlStructure';
 import header from '../components/header';
-
-const startSortingBtn = () => {
-  const domString = '<button type="button" class="btn btn-info" id="start-sorting">Start the Sorting Ceremony!</button>';
-
-  renderToDOM('#form-container', domString);
-};
+import startSortingBtn from '../components/startSortingBtn';
 
 const studentAreas = () => {
   const domString = `<div id="students">No Students</div>
