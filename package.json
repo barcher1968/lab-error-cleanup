@@ -1,5 +1,5 @@
 {
-  "name": "webpack-5.0-template",
+  "name": "Sort",
   "version": "1.0.0",
   "description": "",
   "main": "public/main.js",
@@ -8,8 +8,8 @@
     "start": "webpack serve --mode development",
     "build": "webpack --mode production"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [""],
+  "author": "Barry Archer",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.2.0",
